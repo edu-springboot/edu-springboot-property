@@ -1,0 +1,6 @@
+mvn spring-boot:run -Dspring-boot.run.arguments=--number=666-6666
+java -jar target/edu-springboot-property-2.1.3-SNAPSHOT.jar --number=777-7777
+mvn spring-boot:run -Dspring-boot.run.arguments=--spring.application.json='{"number":"888-8888"}'
+SPRING_APPLICATION_JSON='{"number":"999-9999"}' java -jar target/edu-springboot-property-2.1.3-SNAPSHOT.jar
+NUMBER=000-0000 java -jar target/edu-springboot-property-2.1.3-SNAPSHOT.jar
+java -jar -Dspring.profiles.active=dev target/edu-springboot-property-2.1.3-SNAPSHOT.jar 
