@@ -39,7 +39,6 @@ public class EduSpringbootPropertyApplication {
     private YourProperties youProperties;
 
     @GetMapping("/canIHaveYourInfo")
-    @ResponseBody
     public YourProperties canIHaveYourInfo() {
         return youProperties;
     }
